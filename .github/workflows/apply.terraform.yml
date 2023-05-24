@@ -13,6 +13,9 @@ on:
         type: string
         required: false
         default: ''
+
+  repository_dispatch:
+    types: [remote-trigger]
 #  push:
 #    branches:
 #      - 'main'
